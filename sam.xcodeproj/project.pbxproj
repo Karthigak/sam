@@ -14,6 +14,7 @@
 		40DB55551B78CCDF00B642ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DB55541B78CCDF00B642ED /* Images.xcassets */; };
 		40DB55581B78CCDF00B642ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DB55561B78CCDF00B642ED /* LaunchScreen.xib */; };
 		40DB55641B78CCDF00B642ED /* samTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DB55631B78CCDF00B642ED /* samTests.m */; };
+		40DB556F1B78CD0400B642ED /* CALayer+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DB556E1B78CD0400B642ED /* CALayer+Array.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		40DB555D1B78CCDF00B642ED /* samTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DB55621B78CCDF00B642ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40DB55631B78CCDF00B642ED /* samTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = samTests.m; sourceTree = "<group>"; };
+		40DB556D1B78CD0400B642ED /* CALayer+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Array.h"; sourceTree = "<group>"; };
+		40DB556E1B78CD0400B642ED /* CALayer+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Array.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		40DB553B1B78CCDF00B642ED = {
 			isa = PBXGroup;
 			children = (
+				40DB556D1B78CD0400B642ED /* CALayer+Array.h */,
+				40DB556E1B78CD0400B642ED /* CALayer+Array.m */,
 				40DB55461B78CCDF00B642ED /* sam */,
 				40DB55601B78CCDF00B642ED /* samTests */,
 				40DB55451B78CCDF00B642ED /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40DB55501B78CCDF00B642ED /* ViewController.m in Sources */,
+				40DB556F1B78CD0400B642ED /* CALayer+Array.m in Sources */,
 				40DB554D1B78CCDF00B642ED /* AppDelegate.m in Sources */,
 				40DB554A1B78CCDF00B642ED /* main.m in Sources */,
 			);
